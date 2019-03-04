@@ -476,6 +476,10 @@
 		method = "smc";
 	};
 
+	chosen {
+		bootargs = "quiet";
+	};
+
 	soc: soc { };
 
 	vendor: vendor {
