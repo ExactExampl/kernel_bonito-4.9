@@ -477,7 +477,7 @@
 	};
 
 	chosen {
-		bootargs = "quiet";
+		bootargs = "quiet noirqdebug";
 	};
 
 	soc: soc { };
