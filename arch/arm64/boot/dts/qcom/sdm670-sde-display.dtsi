@@ -37,8 +37,8 @@
 		qcom,panel-supply-entry@0 {
 			reg = <0>;
 			qcom,supply-name = "vddio";
-			qcom,supply-min-voltage = <1800000>;
-			qcom,supply-max-voltage = <1800000>;
+			qcom,supply-min-voltage = <1500000>;
+			qcom,supply-max-voltage = <1500000>;
 			qcom,supply-enable-load = <62000>;
 			qcom,supply-disable-load = <80>;
 			qcom,supply-post-on-sleep = <20>;
@@ -47,7 +47,7 @@
 		qcom,panel-supply-entry@1 {
 			reg = <1>;
 			qcom,supply-name = "lab";
-			qcom,supply-min-voltage = <4600000>;
+			qcom,supply-min-voltage = <4300000>;
 			qcom,supply-max-voltage = <6000000>;
 			qcom,supply-enable-load = <100000>;
 			qcom,supply-disable-load = <100>;
@@ -56,7 +56,7 @@
 		qcom,panel-supply-entry@2 {
 			reg = <2>;
 			qcom,supply-name = "ibb";
-			qcom,supply-min-voltage = <4600000>;
+			qcom,supply-min-voltage = <4300000>;
 			qcom,supply-max-voltage = <6000000>;
 			qcom,supply-enable-load = <100000>;
 			qcom,supply-disable-load = <100>;
@@ -71,8 +71,8 @@
 		qcom,panel-supply-entry@0 {
 			reg = <0>;
 			qcom,supply-name = "vddio";
-			qcom,supply-min-voltage = <1800000>;
-			qcom,supply-max-voltage = <1800000>;
+			qcom,supply-min-voltage = <1500000>;
+			qcom,supply-max-voltage = <1500000>;
 			qcom,supply-enable-load = <62000>;
 			qcom,supply-disable-load = <80>;
 			qcom,supply-post-on-sleep = <20>;
@@ -86,8 +86,8 @@
 		qcom,panel-supply-entry@0 {
 			reg = <0>;
 			qcom,supply-name = "vddio";
-			qcom,supply-min-voltage = <1800000>;
-			qcom,supply-max-voltage = <1800000>;
+			qcom,supply-min-voltage = <1500000>;
+			qcom,supply-max-voltage = <1500000>;
 			qcom,supply-enable-load = <62000>;
 			qcom,supply-disable-load = <80>;
 			qcom,supply-post-on-sleep = <20>;
@@ -96,8 +96,8 @@
 		qcom,panel-supply-entry@1 {
 			reg = <1>;
 			qcom,supply-name = "vdd";
-			qcom,supply-min-voltage = <3000000>;
-			qcom,supply-max-voltage = <3000000>;
+			qcom,supply-min-voltage = <2700000>;
+			qcom,supply-max-voltage = <2700000>;
 			qcom,supply-enable-load = <857000>;
 			qcom,supply-disable-load = <0>;
 			qcom,supply-post-on-sleep = <0>;
@@ -111,8 +111,8 @@
 		qcom,panel-supply-entry@0 {
 			reg = <0>;
 			qcom,supply-name = "vddio";
-			qcom,supply-min-voltage = <1800000>;
-			qcom,supply-max-voltage = <1800000>;
+			qcom,supply-min-voltage = <1500000>;
+			qcom,supply-max-voltage = <1500000>;
 			qcom,supply-enable-load = <32000>;
 			qcom,supply-disable-load = <80>;
 		};
@@ -120,8 +120,8 @@
 		qcom,panel-supply-entry@1 {
 			reg = <1>;
 			qcom,supply-name = "vdda-3p3";
-			qcom,supply-min-voltage = <3300000>;
-			qcom,supply-max-voltage = <3300000>;
+			qcom,supply-min-voltage = <3000000>;
+			qcom,supply-max-voltage = <3000000>;
 			qcom,supply-enable-load = <13200>;
 			qcom,supply-disable-load = <80>;
 		};
