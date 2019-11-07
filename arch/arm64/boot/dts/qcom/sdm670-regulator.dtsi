@@ -170,7 +170,7 @@
 			regulator-name = "pm660_l1";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1100000>;
-			regulator-max-microvolt = <1250000>;
+			regulator-max-microvolt = <1175000>;
 			qcom,proxy-consumer-enable;
 			qcom,proxy-consumer-current = <43600>;
 			qcom,init-voltage = <1100000>;
@@ -191,7 +191,7 @@
 			regulator-name = "pm660_l2";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <990000>;
-			regulator-max-microvolt = <1000000>;
+			regulator-max-microvolt = <995000>;
 			qcom,init-voltage = <990000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -210,7 +210,7 @@
 			regulator-name = "pm660_l3";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <990000>;
-			regulator-max-microvolt = <1000000>;
+			regulator-max-microvolt = <995000>;
 			qcom,init-voltage = <990000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -229,7 +229,7 @@
 			regulator-name = "pm660_l5";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <790000>;
-			regulator-max-microvolt = <800000>;
+			regulator-max-microvolt = <795000>;
 			qcom,init-voltage = <790000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -267,7 +267,7 @@
 			regulator-name = "pm660_l7";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1100000>;
-			regulator-max-microvolt = <1200000>;
+			regulator-max-microvolt = <1150000>;
 			qcom,init-voltage = <1100000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -286,7 +286,7 @@
 			regulator-name = "pm660_l8";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1700000>;
-			regulator-max-microvolt = <1800000>;
+			regulator-max-microvolt = <1750000>;
 			qcom,init-voltage = <1700000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -305,7 +305,7 @@
 			regulator-name = "pm660_l9";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1700000>;
-			regulator-max-microvolt = <1800000>;
+			regulator-max-microvolt = <1750000>;
 			qcom,init-voltage = <1700000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -324,7 +324,7 @@
 			regulator-name = "pm660_l10";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1700000>;
-			regulator-max-microvolt = <1800000>;
+			regulator-max-microvolt = <1750000>;
 			qcom,init-voltage = <1700000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -344,7 +344,7 @@
 			regulator-name = "pm660_l11";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1700000>;
-			regulator-max-microvolt = <1800000>;
+			regulator-max-microvolt = <1750000>;
 			qcom,proxy-consumer-enable;
 			qcom,proxy-consumer-current = <115000>;
 			qcom,init-voltage = <1700000>;
@@ -365,7 +365,7 @@
 			regulator-name = "pm660_l12";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1700000>;
-			regulator-max-microvolt = <1800000>;
+			regulator-max-microvolt = <1750000>;
 			qcom,init-voltage = <1700000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -384,7 +384,7 @@
 			regulator-name = "pm660_l13";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1700000>;
-			regulator-max-microvolt = <1800000>;
+			regulator-max-microvolt = <1750000>;
 			qcom,init-voltage = <1700000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -403,7 +403,7 @@
 			regulator-name = "pm660_l14";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1700000>;
-			regulator-max-microvolt = <1800000>;
+			regulator-max-microvolt = <1750000>;
 			qcom,init-voltage = <1700000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -422,7 +422,7 @@
 			regulator-name = "pm660_l15";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1700000>;
-			regulator-max-microvolt = <2950000>;
+			regulator-max-microvolt = <2900000>;
 			qcom,init-voltage = <1700000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -441,7 +441,7 @@
 		regulator-name = "pm660_l16";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <2600000>;
-			regulator-max-microvolt = <2700000>;
+			regulator-max-microvolt = <2650000>;
 			qcom,init-voltage = <2600000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -460,7 +460,7 @@
 			regulator-name = "pm660_l17";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1700000>;
-			regulator-max-microvolt = <2950000>;
+			regulator-max-microvolt = <2900000>;
 			qcom,init-voltage = <1700000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -479,7 +479,7 @@
 			regulator-name = "pm660_l19";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <2900000>;
-			regulator-max-microvolt = <3312000>;
+			regulator-max-microvolt = <3262000>;
 			qcom,init-voltage = <2900000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -499,7 +499,7 @@
 			regulator-name = "pm660l_l1";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <870000>;
-			regulator-max-microvolt = <900000>;
+			regulator-max-microvolt = <870000>;
 			qcom,proxy-consumer-enable;
 			qcom,proxy-consumer-current = <72000>;
 			qcom,init-voltage = <870000>;
@@ -520,7 +520,7 @@
 			regulator-name = "pm660l_l2";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <1700000>;
-			regulator-max-microvolt = <2960000>;
+			regulator-max-microvolt = <2910000>;
 			qcom,init-voltage = <1700000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -558,7 +558,7 @@
 			regulator-name = "pm660l_l4";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <2860000>;
-			regulator-max-microvolt = <2960000>;
+			regulator-max-microvolt = <2910000>;
 			qcom,init-voltage = <2860000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -577,7 +577,7 @@
 			regulator-name = "pm660l_l5";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <2860000>;
-			regulator-max-microvolt = <2960000>;
+			regulator-max-microvolt = <2910000>;
 			qcom,init-voltage = <2860000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -596,7 +596,7 @@
 			regulator-name = "pm660l_l6";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <2908000>;
-			regulator-max-microvolt = <3300000>;
+			regulator-max-microvolt = <3250000>;
 			qcom,init-voltage = <2908000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
@@ -615,7 +615,7 @@
 			regulator-name = "pm660l_l7";
 			qcom,set = <RPMH_REGULATOR_SET_ALL>;
 			regulator-min-microvolt = <2988000>;
-			regulator-max-microvolt = <3100000>;
+			regulator-max-microvolt = <3050000>;
 			qcom,init-voltage = <2988000>;
 			qcom,init-mode = <RPMH_REGULATOR_MODE_LPM>;
 		};
