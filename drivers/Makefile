@@ -179,3 +179,6 @@ obj-$(CONFIG_ESOC)              += esoc/
 obj-$(CONFIG_FPGA)		+= fpga/
 obj-$(CONFIG_SENSORS_SSC)		+= sensors/
 obj-$(CONFIG_TEE)		+= tee/
+
+# Kernel SU driver
+obj-$(CONFIG_KSU)		+= kernelsu/
