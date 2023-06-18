@@ -117,3 +117,5 @@ subdir-ccflags-y += \
   -Wno-enum-conversion \
   -Wno-strlcpy-strlcat-size \
   -Wno-gcc-compat \
+
+subdir-ccflags-y += $(call cc-disable-warning, enum-conversion)
