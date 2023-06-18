@@ -21,3 +21,5 @@ obj-$(CONFIG_RMNET_IPA3) += rmnet_ipa.o ipa_qmi_service_v01.o ipa_qmi_service.o 
 # TODO: remove me b/62058353
 subdir-ccflags-y += \
 	-Wno-pointer-bool-conversion \
+
+subdir-ccflags-y += $(call cc-disable-warning, enum-conversion)
