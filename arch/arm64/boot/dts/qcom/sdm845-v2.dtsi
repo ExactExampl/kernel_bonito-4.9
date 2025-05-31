@@ -82,6 +82,17 @@
 
 &clock_cpucc {
 	compatible = "qcom,clk-cpu-osm-v2";
+	qcom,cpufreq-table-0 =
+			< 748800>,
+			<1056000>,
+			<1228800>,
+			<1766400>;
+
+	qcom,cpufreq-table-4 =
+			< 825600>,
+			<1286400>,
+			<1612800>,
+			<2803200>;
 };
 
 &pcie1 {
